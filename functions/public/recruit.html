@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="author" content="Ishmam Ahmed Solaiman">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Disinfectors Inc.</title>
 	<script src="js/jquery-3.5.1.min.js"></script>
   <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -24,43 +25,41 @@
 
   </style>
   <nav class="navbar navbar-expand-lg navbar-light font-weight-bold">
-    <a class="navbar-brand" href="#">
-      <img src="img/Logo.png" alt="logo" height="75">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+		<a class="navbar-brand" href="/">
+			<img src="img/Logo.png" alt="logo" height="75">
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mx-auto mr-3">
-        <li class="nav-item active">
-          <a class="nav-link " id="home" href="/">Home</a>
-        </li>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mx-auto">
+				<li class="nav-item active">
+					<a class="nav-link " id="home" href="/">Home</a>
+				</li>
 
-        <li class="nav-item">
-          <a class="nav-link" id="order" href="/order">Disinfect now!</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" id="sub" href="/sub">Subscribe</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://drive.google.com/file/d/1wvTUbAq99veIvZ7sAjLAJZhdGUyXkgJI/view?usp=sharing">Disinfectant information</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://drive.google.com/file/d/1haXvrNGxRbvxDCUp_EamhPcuz8iXmY2j/view?usp=sharing">National Covid-19 guidelines</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" id="recruit" href="/recruit">Careers</a>
-        </li>
-
-      </ul>
-      <a href="#bn" id="lang" style="margin-left:auto">Bangla</a>
-    </div>
-  </nav>
+				<li class="nav-item">
+					<a class="nav-link" id="order" href="/order">Disinfect now!</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" id="sub" href="/sub">Subscribe</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" id="disin" href="https://drive.google.com/file/d/1wvTUbAq99veIvZ7sAjLAJZhdGUyXkgJI/view?usp=sharing">Disinfectant information</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" id="recruit" href="/recruit">Careers</a>
+				</li>
+				<li class="nav-item" id="nav-lang">
+					<a class="nav-link" href="#bn" id="lang" style="margin-left:auto"><i class="fas fa-globe-asia mr-2"></i>বাংলা</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
 
     <div class="main_content">
       <div class="header">
-        <h1>Join Our Campaign</h1>
+        <h1 id="camp">Join Our Campaign</h1>
       </div>
 
 <style media="screen">
@@ -70,22 +69,24 @@
 </style>
 
       <div class="job-wrapper">
-        <div class="job-container">
-          <h3>Infantry</h3>
-          <div><img src="img/sword.png" class="image" height="120px"></div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus corporis eius nam maiores nobis voluptatibus id modi placeat aspernatur. Atque qui, ad earum labore saepe?</p>
+        <div class="job-container" id="infan">
+          <h3 class="mb-4">Infantry</h3>
+          <div class="mb-4"><img src="img/sword.png" class="image mb-3" height="120px"></div>
+          <p class="mb-4">Our ground force responsible for the delivery of disinfection services to our customer's and subscriber's desired spaces.</p>
           <a href="https://docs.google.com/forms/d/e/1FAIpQLSd22gxBY89YWuEG2CPhxs5W52dvo8Rw2Yv7NbSH0PglqzmnjA/viewform?fbclid=IwAR14uWGIITWZ4ZEvBVbz2h_biketk8GqIFvdKaZd2DTd5h8GZmScKcgl2KQ" >Apply now</a>
         </div>
 
-        <div class="job-container">
+        <div class="job-container" id="knight">
           <h3>Knight</h3>
           <div><img src="img/shield.png" class="image" height="120px"></div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus corporis eius nam maiores nobis voluptatibus id modi placeat aspernatur. Atque qui, ad earum labore saepe?</p>
+          <p>Our six-month long unique management trainee program which will arm you with comprehensive knowledge and field experience in operations, marketing, sales, human resources and public relations.</p>
           <a href="https://docs.google.com/forms/d/14mI_DbMv0yxBUFH46tjsQhJrsT_14KFMOUmsEgzrYfM/viewform?fbclid=IwAR0njlig_h5l9yykIxMiXAj-OCfZD1J3MsJngQT5P1in0Op3QqZe1URIdBc" >Apply now</a>
         </div>
     </div>
-
+    <br>
+    <br>
   </div>
+  <!-- Footer -->
   <footer class="page-footer font-small pt-4" id="foot">
 
     <!-- Footer Links -->
@@ -109,7 +110,7 @@
 
         <!-- Grid column -->
         <div class="col-md-3 text-center" >
-          <h4><a href="/about" id="about" style="color:black">About Us</a></h4>
+        <a href="/about" id="about" style="color:black"><button type="button" class="btn w-50" id="abtus-btn">About us</button></a>
         </div>
         <hr class="clearfix w-100 d-md-none pb-3">
         <div class="col-md-3 mb-md-0 mb-3 ">
@@ -138,24 +139,13 @@
           <h5 class="text-uppercase text-center mr-2">Socials</h5>
         <ul class="list-unstyled list-inline mr-2 text-md-center">
           <li class="list-inline-item">
-    <a href="https://www.facebook.com/disinfectorsinc/" id="fb" class="btn-floating btn-fb mx-1"><i class="fab fa-facebook-square fa-2x"></i></a>
+            <a href="https://www.facebook.com/disinfectorsinc/" id="fb" class="btn-floating btn-fb mx-1"><i class="fab fa-facebook-square fa-2x"></i></a>
           </li>
-        <li class="list-inline-item">
-  <a href="https://www.instagram.com/disinfectorsincbd/" id="ig" class="btn-floating btn-fb mx-1"><i class="fab fa-instagram fa-2x"></i></a>
-        </li>
+          <li class="list-inline-item">
+            <a href="https://www.instagram.com/disinfectorsincbd/" id="ig" class="btn-floating btn-fb mx-1"><i class="fab fa-instagram fa-2x"></i></a>
+          </li>
 
-      </ul>
-
-          <!--
-          <ul class="list-unstyled">
-            <li>
-              <a href="https://www.facebook.com/disinfectorsinc/"><i class="fab fa-facebook-square fa-2x"></i></a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com/disinfectorsincbd/"><i class="fab fa-instagram fa-2x"></i></a>
-            </li>
-
-          </ul> -->
+        </ul>
 
         </div>
         <!-- Grid column -->
@@ -171,6 +161,7 @@
     <!-- Copyright -->
 
   </footer>
+  <!-- Footer -->
   <script src="js/language_switch.js" charset="utf-8"></script>
 </body>
 

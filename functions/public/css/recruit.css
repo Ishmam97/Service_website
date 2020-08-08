@@ -15,13 +15,18 @@
   padding: 10px;
   box-sizing:content-box;
   width: 30rem;
-  margin-bottom: 20px;
+
+  margin-bottom: 40px;
 
 }
 .job-container .image{
     margin: 10px;
+
 }
 .job-container:hover{
   background-color: #f1c908;
   transform: scale(1.02);
+}
+#foot{
+
 }

@@ -66,3 +66,5 @@ firebase.cmd
 
 # dotenv environment variables file
 .env
+functions/key.json
+functions/key

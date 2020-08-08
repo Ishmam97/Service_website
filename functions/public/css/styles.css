@@ -14,6 +14,9 @@ body{
    height: 100%;
    width: 100%;
 }
+nav {
+  background-color: #ffd300;
+}
 
 .main_content{
   max-width: 1200px;
@@ -22,7 +25,16 @@ body{
   padding: 20px;
 
 }
+.main_content .left{
 
+  width: 50%;
+  height: 30rem;
+}
+.main_content .right{
+
+  width: 50%;
+  height: 30rem;
+}
 #foot{
   background:  #ffd300;
   color: black;
@@ -40,4 +52,33 @@ body{
 #ig:hover{
   color: #940059;
   transition: all 1s ease;
+}
+#nav-lang{
+  position: absolute;
+  right: 10px;
+  font-weight: bold;
+}
+@media only screen and (max-width: 991px) {
+  #nav-lang{
+    position: static;
+  }
+}
+@media only screen and (max-width: 620px) {
+    #logos{
+        width: 0px;
+        height: 0px;
+        display: none;
+    }
+    #logos img{
+      display: none;
+    }
+
+    #desc{
+      width: 100%;
+    }
+}
+#abtus-btn{
+  background-color: black;
+  color: #ffd300;
+  border-radius: 15%;
 }
