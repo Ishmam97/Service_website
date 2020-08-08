@@ -1,0 +1,28 @@
+.job-wrapper{
+  height: 80vh;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.job-container{
+  height: 20rem;
+  width: 30rem;
+  border:2px solid #ffd300;
+  border-radius: 5%;
+  background: #ffd300;
+  opacity: 0.7;
+  text-align: center;
+  padding: 10px;
+
+
+}
+.job-container .image{
+    margin: 10px;
+    height: 25%;
+    width: 25%;
+}
+.job-container:hover{
+  background-color: #f1c908;
+  transform: scale(1.02);
+}

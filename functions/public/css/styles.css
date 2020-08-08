@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+   background-color: #f4f4f2;
+}
+
+.wrapper{
+  display: flex;
+}
+
+.wrapper .sidebar{
+  width: 250px;
+  height: 100%;
+  background: #ffd300;
+  padding: 30px 0px;
+  position: fixed;
+}
+.logo{
+  display: flex;
+  justify-content: center;
+}
+.logo img{
+  width: 225px;
+  height: 257px
+}
+
+.wrapper .sidebar ul li{
+  padding: 15px;
+  border-bottom: 1px solid #2b2b2b ;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  border-top: 1px solid rgba(255,255,255,0.05);
+}
+
+.wrapper .sidebar ul li a{
+  color: #2b2b2b ;
+  display: block;
+}
+
+.wrapper .sidebar ul li a .fas{
+  width: 25px;
+}
+
+.wrapper .sidebar ul li:hover{
+  color: #f4f4f2;
+  background-color: black;
+}
+
+.wrapper .sidebar ul li:hover a{
+  color: #f4f4f2;
+}
+
+.wrapper .sidebar .social_media{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.wrapper .sidebar .social_media a{
+  display: block;
+  width: 40px;
+  background: #ffd300;
+  height: 40px;
+  line-height: 45px;
+  text-align: center;
+  margin: 0 5px;
+  color: #2b2b2b ;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.wrapper .main_content{
+  width: 100%;
+  margin-left: 250px;
+}
+
+.wrapper .main_content .header{
+  padding: 20px;
+  background: #f4f4f2;
+  color: #2b2b2b ;
+  border-bottom: 1px solid #e0e4e8;
+}
+
+.wrapper .main_content .info{
+  margin: 20px;
+  color:#2b2b2b;
+  line-height: 25px;
+}
+
+.wrapper .main_content .info div{
+  margin-bottom: 20px;
+}

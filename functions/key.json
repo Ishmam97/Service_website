@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "disinfectors-inc",
+  "private_key_id": "348c92298601cd44253160b596ca6471293ceb88",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDOZzArr6VhQ4OJ\npmIjsoyRH+AG1SagZpMIEuD55stHzXt3rSQIHWvvAAogoJC2sGzXHavdoiquhmaH\nfkEpx5TpRWsaYepX2vJbKSv9wYLHJdjyn25eZeAKWyFLOQzaPBhsUXC76zcPq0PD\ncUVBDvvT6J7TlHEyxLnmjFbeI3udgdm44NUFUkSstsqSH5ZRS7xrmJhe0mYAT4zv\nqWZpi3mN3hLfqfg/vSOBqbh2pFRBx1frBgo6ynWTwPBL3Pl63hypUEmX2ynMFLCH\nTg39vmnbTyZxn10DcgI1v9GwSTGDnzw7ppaHISqGh5OwH1u0+xq6vsguHluJuJRx\nUiDgaQBnAgMBAAECggEAYnXI/d4BN1+8fMp5IGxJL+WTuc6uaW/lDcHrvmqBaFQ2\nZMWcXZ6jYVSUgDH4Np38nbWSydxVHgIRIOtybFq/x3OM/v3ci2JvoFsImDlaiGOe\nlUbGoJNah7YnMLobTnPCdtF2xL4U+w2I+s+q6LkcGl9qfKXgRgagY8FoovksO9rc\nNNunLIlJKZrG9IgmEd6ooeqoCO99FNkrPBtxSVHGQTjtEB+fipbVSB5DKCa/Rmuc\nwcyHjTwKRMtXzIi7pLePxU7vKRcHaUDf+Pz1qqG8f3Yi+AhMBf2TjgoCYcaUO9ae\nFHaxD8u9967xKT911pGYPOp7RgqxCEwzxJf+0bvHsQKBgQD+Mjj3oeZnCiMG40Ut\nlvbufPh15JD0+aSGoPdXO0GH4LtYXJ37ax+zwXBTF9Cq0BCqRk7LlQ7DCwiIZmnI\n7O2TIzu37jtTw4dvWaNHWuayH9s7kXX1slacPYl0QObwmgY4wrVGLtJ6p96YHV5X\nhcVtqO6ulItpR5TLt54IbR5EPwKBgQDP3iTQdP+dchGHRfK/tPpoC4EbxkIDuunQ\naGb1X1A+m7FF9H6CAhEZ+cszJ5IqgNSlp/sPTYmFkmTtLMKTncqBYI3vvbvnB9ZH\nVEKvcwjKd1OicB1yoZAwETUgA6N729eTOPeOtI2xJMm2uu4oy53P3e6ohPJ9f06A\n4V74wSkZ2QKBgQC9CNpGhbbTD73GpILQiYDvEC6xdZ27IF+S4uetjlqIUr7f0liG\nHT8BLax7jq1WKc8K4ag9S4cj0vOwhADNNCzlDAGgIeEqxLDWROHg8Z+3/WrK3LzN\nT6eLH1Q2CQH1EYXo9htaqv1Jy8cEdmqvScLtbwC5Aay/SUVFTjKO757ffwKBgCec\ntLVI5oFRgIefy8++pE15i8QINwJQ90ew7ZXq8PbNYq3rFsSdsjaaBKAd9VvGKz/a\nUBytcPyUVklgU0AgPLwE82dxZ8JyGuKC6yZWLKGwta5p4SK8KScP0GjmaJws29sB\nayO1wp60XQBGhSYfD1bSey2AEFncDdC/ogKThMqZAoGAJfkYOD3o+fj/LtdLtLMm\nV4lY0Wu0Yoi4jifs4Z4DBTKOmXoYE6TcJHlNaBZUW/tDpe2VhXUDZBReqETV6VCD\nhkBcpUhY4bYAWnW9hSxW0SL3c7U+UPwk+ZxGCf8+oVEal4aeTZVABoJNbNcB3M4i\nZNOWNP1UXI7cRJz3w/UegSM=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-ep42y@disinfectors-inc.iam.gserviceaccount.com",
+  "client_id": "102067552497178109145",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-ep42y%40disinfectors-inc.iam.gserviceaccount.com"
+}
