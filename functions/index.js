@@ -5,6 +5,7 @@ const path = require('path');
 const express = require('express')
 const bodyParser = require("body-parser");
 const app = express()
+const url = require('url');
 
 app.use(bodyParser.urlencoded({extended : true}));
 app.use(bodyParser.json());
@@ -13,7 +14,7 @@ app.use(bodyParser.json());
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
   databaseURL: "https://disinfectors-inc.firebaseio.com"
-  
+
 });
 
 const db = admin.firestore()
@@ -28,6 +29,11 @@ app.get('/success' , (req, res)=>{
 app.get('/', function(req, res) {
     res.sendFile(path.join(__dirname,'public/index.html'));
 });
+
+app.get('/about', function(req, res) {
+    res.sendFile(path.join(__dirname,'public/about.html'));
+});
+
 app.get('/recruit', function(req, res) {
     res.sendFile(path.join(__dirname,'public/recruit.html'));
 });
@@ -94,6 +100,7 @@ app.post('/subOrder', function(req , res){
   }).catch(err=>{
     res.status(500).json({error:'something went wrong while creating new order'})
   })
+
 });
 
 app.get('/getOrders' ,(req , res) => {
